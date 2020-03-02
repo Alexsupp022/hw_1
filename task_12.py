@@ -5,6 +5,8 @@ from pyrob.api import *
 
 @task
 def task_8_6():
+    if wall_is_beneath() and not wall_is_above():
+        fill
     pass
 
 
